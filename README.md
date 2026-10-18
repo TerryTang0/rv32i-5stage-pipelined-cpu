@@ -46,39 +46,51 @@ The original control logic skeleton provided by UC Berkeley was locked, and the 
 ### CPU Datapath
 ![5-stage CPU Pipeline](schematics/cpu_pipeline.png)
 
+
 ### Control Logic
 ![Control Logic](schematics/control%20logic.png)
+
 
 ### Supplemental Control Logic
 ![Supplemental Control Logic](schematics/supplemental%20control%20logic.png)
 
+
 ### Arithmetic Logic Unit (ALU)
 ![ALU](schematics/alu.png)
+
 
 ### Register File
 ![Regfile](schematics/regfile.png)
 
+
 ### Branch Comparator
 ![Branch Comparator](schematics/branch_comparator.png)
+
 
 ### Immediate Generator
 ![Imm Generator](schematics/imm_generator.png)
 
+
 ### Memory
 ![MEM](schematics/mem.png)
+
 
 ### Partial Load
 ![Partial Load](schematics/partial_load.png)
 
+
 ### Partial Store
 ![Partial Store](schematics/partial_store.png)
+
 
 ## Verification
 
 The CPU was tested using custom RISC-V assembly programs and Python-based automated verification.
+7/7 custom integration tests passed.
 
 ## Tools
 
 - **Logisim Evolution** — Digital circuit design and simulation
 - **RISC-V Assembly** — Instruction-level verification
+- **Venus** - Simulate test files and trace program counter updates and instruction sequences.
 - **Python** — Automated testing and validation
