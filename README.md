@@ -4,7 +4,7 @@ A 32-bit RISC-V (RV32I) 5-stage pipelined CPU designed and implemented using **L
 
 This independent computer architecture project extends my CPU design from UC Berkeley's CS61C course, expanding the original **2-stage pipelined CPU into a 5-stage pipelined architecture**.
 
-Original CS61C project: [CS61C -> Project 3](https://github.com/TerryTang0/cs61c-self-study/tree/main/proj3) (private repository).
+Original CS61C project: [CS61C -> Project 3](https://github.com/TerryTang0/cs61c-self-study/tree/main/proj3) (private repo).
 
 ## Architecture
 
